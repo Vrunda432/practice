@@ -1,15 +1,92 @@
-function fun(a,b,c){
-    console.log("----->")
-    return[1,2,2]
-}
-let x=fun(1,[1,2,3,4])
+let familyTree ={
+    name: "babudada",
+    age:86,
+    child:[
+        {
+            id:100,
+            name:"kishorbhai",
+            age:55,
+            occupation:"zonal-markting manager",
+            vehicle:[
+               {
+                name:"creta",
+                number:6108,
+               },
+               {
+                name:"kia",
+                number:2022,
+               }
+            ],
+            child: [
+                {
+                    name:"vrunda",
+                    age:28,
+                },
+                {
+                    name:"ishan",
+                    age:25,
+                },
+            ],
+        },
+    {
+        id:101,
+        name:"rameshbhai",
+        age:50,
+        occupation:"job",
+        vehicle:[
+           {
+            name:"thar",
+            number:3040,
+           },
+           {
+            name:"activa",
+            number:2011,
+           },
 
-let fun2=function(){
-    console.log("------------->")
+        ],
+        child:[
+            {
+                name:"mansi",
+                age:21,
+            },
+            {
+                name:"kirtan",
+                age:22,
+            },
+        ],
+    },
+    {
+        id:103,
+        name:"jaysukh",
+        age:54,
+        occupation:"farmer",
+        vehicle:[
+            {
+                name:"honda",
+                number:3060,
+            },
+            {
+                name:"sckoda",
+                number:2011,
+            },
+        ],
+        child:[
+            {
+                name:"tisha",
+                age:20,
+            },
+            {
+                name:"harsh",
+                age:26,
+            },
+        ],
+    },
 
+    
+    ],
 }
-fun2()
-const fun3= (x)=>{
-    console.log("---fun3--->",x)
-}
-fun3(1000)
+console.log(familyTree.name);
+console.log(familyTree.child[1].name);
+console.log(familyTree.child[1].child[1].name);
+console.log(familyTree.child[2].vehicle[0].name);
+console.log(familyTree.child[0].vehicle[0].number);
