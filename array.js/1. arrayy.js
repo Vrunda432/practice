@@ -166,3 +166,5 @@
 //by use of loop.
 
 let arr=['i','am', 'urvish'];
+let arr1=arr.reverse().join();
+console.log(arr1);
