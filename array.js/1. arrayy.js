@@ -119,44 +119,6 @@
 // });
 // console.log(arr);
 
-//task- 3
-
-//1. ['i','am', 'urvish'] ==> want ['urvish','am','i']
-//by use of map and loop
-
-// let arr=['i','am', 'urvish'];
-// let arr1=arr.map((e,i)=>{
-//     return e.arr1 ;
-
-// });
-// console.log(arr);
-
-
-
-
-//2. want "i am urvish" without use join method
-
-// const arr=['i','am','urvish'];
-// let str='';
-// for(let i=0;i< arrstring.length; i++);{
-
-
-// str += arrstring[i];
-// if(i!==arrstring.length-1);{
-
-// str += '';
-// }
-// }
-
-//3. give index of 56
-// let arr=[1,2,3,6,7,9,3,56,8];
-// let arr1= arr.indexOf(56);
-// console.log(arr1);
-
-//4. give true/false result when check given value is exists in array or not
-//  let str=["hello vrunda"];
-//  let x=str.includes("hi");
-//  console.log(x);
 
 
 
